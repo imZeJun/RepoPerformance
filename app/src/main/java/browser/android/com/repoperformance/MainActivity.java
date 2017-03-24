@@ -1,30 +1,22 @@
 package browser.android.com.repoperformance;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
+import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
-    private static final String TAG = "MainActivity";
-    private static final long ITERATOR_NUM = 10000000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.over_draw_layout);
-        traceView();
     }
 
-    private void traceView() {
-        traceViewInner();
+    public void sysTraceActivity(View view) {
+        Intent intent = new Intent(this, SystraceActivity.class);
+        startActivity(intent);
     }
 
-    private void traceViewInner() {
-        long result = 0;
-        for (int i = 0 ; i < ITERATOR_NUM; i++) {
-            result += i;
-        }
-        Log.d(TAG, "traceViewInner, result=" + result);
-    }
 }

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RepoPerformance</string>
+    <string name="title_activity_hierarchy_viewer">HierarchyViewer</string>
 </resources>

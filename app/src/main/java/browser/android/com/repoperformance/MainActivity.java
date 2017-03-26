@@ -19,4 +19,19 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void traceViewActivity(View view) {
+        Intent intent = new Intent(this, TraceViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void hierarchyViewerActivity(View view) {
+        Intent intent = new Intent(this, HierarchyViewer.class);
+        startActivity(intent);
+    }
+
+    public void overDrawActivity(View view) {
+        Intent intent = new Intent(this, OverDrawActivity.class);
+        startActivity(intent);
+    }
+
 }

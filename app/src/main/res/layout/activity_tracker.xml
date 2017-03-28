@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="browser.android.com.repoperformance.TrackerActivity">
+    <TextView
+        android:id="@+id/tv_alloc"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="alloc"
+        android:text="alloc"
+        style="@style/style_tv_normal"/>
+    <TextView
+        android:id="@+id/tv_release"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="release"
+        android:text="release"
+        style="@style/style_tv_normal"/>
+</LinearLayout>

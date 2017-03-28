@@ -34,4 +34,9 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void trackerActivity(View view) {
+        Intent intent = new Intent(this, TrackerActivity.class);
+        startActivity(intent);
+    }
+
 }

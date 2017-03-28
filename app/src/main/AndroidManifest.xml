@@ -19,7 +19,8 @@
         <activity android:name=".SystraceActivity" />
         <activity android:name=".TraceViewActivity" />
         <activity android:name=".HierarchyViewer" />
-        <activity android:name=".OverDrawActivity"></activity>
+        <activity android:name=".OverDrawActivity" />
+        <activity android:name=".TrackerActivity"></activity>
     </application>
 
 </manifest>

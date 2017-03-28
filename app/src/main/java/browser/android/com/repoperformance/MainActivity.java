@@ -39,4 +39,9 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void memoryActivity(View view) {
+        Intent intent = new Intent(this, MemoryActivity.class);
+        startActivity(intent);
+    }
+
 }
